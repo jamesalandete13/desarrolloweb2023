@@ -1,0 +1,52 @@
+body{
+    font-family: Cambria;
+}
+main {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "logo header header header header"
+    "aside  cuerpo cuerpo cuerpo cuerpo"
+    "aside  cuerpo cuerpo cuerpo cuerpo";
+    row-gap: 0;
+    column-gap: 0;
+    grid-template-rows: 20% 80%;
+    height: 98vh;
+}
+
+#logo{
+    grid-area: logo;
+    border: 1px solid royalblue;
+    text-align: center;
+    padding: 35px;
+}
+
+header {
+    grid-area: header;
+    border: 1px solid royalblue;
+    text-align: center;
+    padding: 30px;
+}
+
+aside {
+    grid-area: aside;
+    border: 1px solid royalblue;
+    text-align: center;
+}
+
+#cuerpo {
+    grid-area: cuerpo;
+    border: 1px solid royalblue;
+}
+
+#marco{
+    margin: 20px;
+    text-align: left;
+    padding-bottom: 100%;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
