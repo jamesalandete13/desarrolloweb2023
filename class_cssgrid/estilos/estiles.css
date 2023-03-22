@@ -31,13 +31,13 @@ header {
 
 aside {
     grid-area: aside;
-    border: 1px solid ;
+    border: 1px solid white ;
     text-align: center;
 }
 
 #cuerpo {
     grid-area: cuerpo;
-    border: 1px solid ;
+    border: 1px solid white;
 }
 
 #marco{
