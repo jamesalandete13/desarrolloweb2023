@@ -17,14 +17,14 @@ main {
 
 #logo{
     grid-area: logo;
-    border: 1px solid ;
+    border: 1px solid white ;
     text-align: center;
     padding: 35px center;
 }
 
 header {
     grid-area: header;
-    border: 1px solid ;
+    border: 1px solid white ;
     text-align: center;
     padding: 30px;
 }
